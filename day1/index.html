@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>HTML/CSS</title>
+</head>
+<!-- TODO: html 공부시작!!!!!!-->
+<!-- CHECKLIST: ㅇㄹㅇㄹ-->
+<!-- [x] 태그 10개 사용하여 push하기-->
+<!-- NOTE: 중요한 부분은 NOTE로-->
+<!-- WARNING: 이것은 경고-->
+
+<body>
+    <!-- NOTE: header 태그는 웹 페이지나 섹션의 헤더를 정의-->
+    <header>
+    <h1>신한투자증권 프로디지털 아카데미</h1>
+    <!-- NOTE: nav 태그는 네비게이션 링크를 담는 태그-->
+    <nav>
+        <!-- NOTE: ul 태그는 순서가 없는 리스트 태그-->
+        <ul>    
+        <!-- NOTE: li 태그는 리스트 내용 태그-->
+        <li>HTML 연습기</li>
+        <li>메시 댓글 달기</li>
+        <li>input 연습기</li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- NOTE: main 태그는 문서의 주요 콘텐츠를 감싸는 태그로, 페이지에 단 하나만 사용-->
+    <main>
+    <!-- NOTE: section 태그는 문서의 섹션을 정의하며 주제별로 그룹화함-->
+    <section>
+    <h2>HTML 연습기</h2>
+    <p>오늘은 HTML 연습을 해보았다. 정말 즐겁다.</p>
+    <blockquote cite="https://naver.com">
+        이제부터는 간헐적으로 문서 기본 구조를 생략하고
+    </blockquote>
+    <p> 여기는 수평선 위에</p>
+    <hr>
+    <p> 여기는 수평선 아래</p>
+
+    <p> 이제 월요일이다.
+        행복하다. </p>
+    <br>
+    br 태그는 엔터와 비슷한 역할을 하는듯
+    <p> 이제 월요일이다. <br> 하하하하 </p>
+
+    <!-- NOTE: pre 태그를 이용한 입력한 그대로 보여주기-->
+    <!-- 여기서는 글자를 엔터, 탭 등을 입력하면 그대로 반영된다.-->
+    <pre>
+        pre 태그는 입력한 그대로 보여주는 것 같다. 
+        방금 엔터를 눌렀더니 그대로 엔터가 되었다.
+    </pre>
+
+    <!-- NOTE: 글자 기울이기, 강조하기-->
+    <!-- i, em은 글자를 기울인다.-->
+    <!-- b, strong은 글자를 강조한다.-->
+    <i> 웹은</i>
+    <em> 정말</em>
+    <b> 재미있고</b>
+    <strong> 신나요~</strong>
+
+
+    <!-- NOTE: 엔티티 사용해보기-->
+    <p>이곳은 엔티티 영역이다.</p>
+    <pre>
+        &lt; 
+        &gt;
+        &amp;
+        &quot;
+        &apos;
+        &nbsp;
+        &copy;
+        &reg;
+    </pre>
+
+    <!-- NOTE: a 태그를 이용한 링크 가져오기-->
+    <a href="https://www.naver.com">네이버 방문하기</a>
+    <br>
+    <a href="https://github.com/SEO-YJ?tab=repositories"><b>깃허브 방문하기</b></a>
+    </section>
+
+    <section>
+    <h2>메시 댓글 달기</h2>
+    <article>
+        <h3>메시란?</h3>
+        <p>goat 축구 선수</p>
+    </article>
+
+    <!-- NOTE: img 태그와 상대 경로를 이용한 메시 사진 가져오기-->
+    <img src="img/messi.jpg" alt="메시 사진" width="500" height="500">
+
+    <!-- NOTE: textarea 태그를 이용한 여러 줄 입력하기-->
+    <!-- 댓글 남기기 등을 할 때 사용하면 좋을 것 같다.-->
+
+    <p>
+        <strong>메시님에 대한 댓글을 남겨보세요!</strong>
+        <br>
+        <textarea rows="4" cols="50" placeholder="메시지를 입력하세요"></textarea>
+    </p>
+    </section>
+
+    <section>
+    <h2>input 연습기</h2>
+    다른 한번에 처리하는 것이라면 form 태그를 사용하지 않고, input만 사용한다.
+    <br> 
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text">mojila input 연습 링크</a>
+
+    <br>
+    <section>
+        <h3></h3>
+    </section>
+    <label for="name">Name (4 to 8 characters):</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+
+    <details>
+        <summary>&lt;input&gt; types</summary>
+        <ul>
+            <li>&lt;input type="text&gt;</li>
+            <label for="name">Name (4 to 8 characters):</label>
+            <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+            <li>유로(€) : 1,284.08</li>
+            <li>엔(￥) : 1,014.88</li>
+        </ul>
+    </details>
+
+    </section>
+    
+    <section>
+        <h3>2024-01-16:  글꼴과 관련된 CSS 속성</h3>
+        
+    </section>
+    
+
+
+    
+</body>
+</html>
