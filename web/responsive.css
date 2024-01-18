@@ -149,7 +149,7 @@ header {
   /* 기술 스택 */
   /* top, bottom: 100px, right, left: 20px*/
   .techStackContainer {
-    padding: 100px 20px;
+    padding: 100px 10px;
   }
 
     /* 기술 스택 스타일 */
@@ -186,8 +186,13 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 10px;
-    grid-column-gap: 20px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+  }
+
+  .techLogos li {
+    width: 30px;
+    height: 30px;
   }
 
   /* ---- 내 프로젝트 컨테이너 ---- */
