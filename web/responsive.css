@@ -182,7 +182,7 @@ header {
 
   .techLogos {
     list-style-type: none;
-    max-width: 389px;
+    max-width: 300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
