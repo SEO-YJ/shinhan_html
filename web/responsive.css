@@ -375,11 +375,24 @@ header {
 .feedback1_text {
   font-size: 10px;
 }
-.feedback1_text {
+.feedback2_text {
   font-size: 10px;
 }
-.feedback1_text {
+.feedback3_text {
   font-size: 10px;
+}
+
+.feedback1_name {
+  text-align: right;
+  color:#001F8F;
+}
+.feedback2_name {
+  text-align: right;
+  color:#001F8F
+}
+.feedback3_name {
+  text-align: right;
+  color:#001F8F
 }
 
 .feedback2 {
