@@ -332,7 +332,6 @@ header {
 /* ---- 동료 피드백 컨테이너 ---- */
 .feedback {
   max-width: 389px;
-  margin: 0 auto;
 }
 
     /* 기술 스택 스타일 */
@@ -350,7 +349,7 @@ header {
     }
 
 .feedback_text {
-  max-width: 350px;
+  max-width: 300px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
