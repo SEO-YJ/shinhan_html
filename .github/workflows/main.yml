@@ -22,3 +22,6 @@ jobs:
       - name: Upload to S3
         run: |
           aws s3 sync web s3://youjun-bucket/
+
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id E2KHI6AA1VBA2F --paths /* # Cloudfront ID로 변경
