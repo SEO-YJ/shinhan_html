@@ -305,6 +305,7 @@ header {
     height: 120px;
     border-radius: 4.08px;
     background: url("./img/p_1.png");
+    background-size: contain;
   }
 
   .p_image2 {
@@ -312,6 +313,7 @@ header {
     height: 120px;
     border-radius: 4.08px;
     background: url("./img/p_2.png");
+    background-size: contain;
   }
 
   .p_image3 {
@@ -319,6 +321,7 @@ header {
     height: 120px;
     border-radius: 4.08px;
     background: url("./img/p_3.png"); 
+    background-size: contain;
   }
 
 
