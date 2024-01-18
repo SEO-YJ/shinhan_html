@@ -19,7 +19,7 @@
 
 .navItem {
     color: #403930;
-    font-size: 10px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 30px */
@@ -31,7 +31,7 @@ header {
     padding: 0 20px;
     justify-content: space-between;
     max-width: 389px;
-    margin: 100px auto;
+    margin: 30px auto;
     align-items: center;
 }
 
@@ -155,7 +155,7 @@ header {
     /* 기술 스택 스타일 */
     .techStackContainer h3 {
       color: #000;
-      text-align: center;
+      text-align: left;
       font-size: 20px;
       font-style: normal;
       font-weight: 350;
@@ -185,9 +185,9 @@ header {
     max-width: 389px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-row-gap: 20px;
-    grid-column-gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
   }
 
   /* ---- 내 프로젝트 컨테이너 ---- */
@@ -466,4 +466,22 @@ box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.fade-in-box {
+  /*텍스트*/
+  color: #333;
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 80px */
+  letter-spacing: -1.28px;
+
+  display: inline-block;
+  padding: 10px;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari and Chrome */
+  -o-animation: fadein 3s; /* Opera */
 }
