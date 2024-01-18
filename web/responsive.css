@@ -303,7 +303,7 @@ header {
   }
 
   .p_image1 {
-    width: 100px;
+    width: 120px;
     height: 200px;
     border-radius: 8.08px;
     background: url("./img/p_1.png");
@@ -311,7 +311,7 @@ header {
   }
 
   .p_image2 {
-    width: 100px;
+    width: 120px;
     height: 200px;
     border-radius: 8.08px;
     background: url("./img/p_2.png");
@@ -319,7 +319,7 @@ header {
   }
 
   .p_image3 {
-    width: 100px;
+    width: 120px;
     height: 200px;
     border-radius: 8.08px;
     background: url("./img/p_3.png"); 
