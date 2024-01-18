@@ -228,11 +228,11 @@ header {
 
     display: flex;
     flex-direction: column-reverse;
-
+    justify-content: center;
     align-items: center;
     gap: 20px;
     align-self: stretch;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
   .project2 {
@@ -241,11 +241,11 @@ header {
 
     display: flex;
     flex-direction: column-reverse;
-
+    justify-content: center;
     align-items: center;
     gap: 20px;
     align-self: stretch;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
   .project3 {
@@ -254,11 +254,11 @@ header {
 
     display: flex;
     flex-direction: column-reverse;
-
+    justify-content: center;
     align-items: center;
     gap: 20px;
     align-self: stretch;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 
   .p_description {
