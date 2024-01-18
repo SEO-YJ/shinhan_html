@@ -190,7 +190,7 @@ header {
     grid-column-gap: 5px;
   }
 
-  .techLogos li {
+  .techLogos img {
     width: 30px;
     height: 30px;
   }
