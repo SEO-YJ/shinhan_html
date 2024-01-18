@@ -352,9 +352,7 @@ header {
 .feedback_text {
   display: flex;
   flex-direction: column;
-  width: 389px;
-  align-items: center;
-  gap: 94px;
+  gap: 40px;
 }
 
 .feedback1 {
