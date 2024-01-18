@@ -174,7 +174,7 @@ header {
   .techStackContainer p {
     color: #333;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 200;
     line-height: 26px; /* 130% */
@@ -211,7 +211,7 @@ header {
    .myProjectContainer h3 {
     color: #000;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 350;
     line-height: 26px; /* 65% */
@@ -227,6 +227,7 @@ header {
     background: #E6EEFF;
 
     display: flex;
+    flex-direction: column-reverse;
     padding-left: 20px;
     align-items: center;
     gap: 20px;
@@ -300,23 +301,23 @@ header {
   }
 
   .p_image1 {
-    width: 176px;
-    height: 348px;
-    border-radius: 16.08px;
+    width: 60px;
+    height: 120px;
+    border-radius: 4.08px;
     background: url("./img/p_1.png");
   }
 
   .p_image2 {
-    width: 176px;
-    height: 348px;
-    border-radius: 16.08px;
+    width: 60px;
+    height: 120px;
+    border-radius: 4.08px;
     background: url("./img/p_2.png");
   }
 
   .p_image3 {
-    width: 176px;
-    height: 348px;
-    border-radius: 16.08px;
+    width: 60px;
+    height: 120px;
+    border-radius: 4.08px;
     background: url("./img/p_3.png"); 
   }
 
