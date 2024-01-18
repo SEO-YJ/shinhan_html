@@ -156,7 +156,7 @@ header {
     .techStackContainer h3 {
       color: #000;
       text-align: left;
-      font-size: 20px;
+      font-size: 30px;
       font-style: normal;
       font-weight: 350;
       line-height: 26px; /* 65% */
@@ -191,8 +191,8 @@ header {
   }
 
   .techLogos img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 
   /* ---- 내 프로젝트 컨테이너 ---- */
