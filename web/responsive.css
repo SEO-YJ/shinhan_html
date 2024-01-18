@@ -5,24 +5,465 @@
 
   nav {
     /* 디자이너들은 주로 rgb, hex 값을 사용 */
-    
     /* display: flex 정렬*/
     display: flex;
     /* gap: 하나하나의 요소들의 사이를 40px*/
     align-items: center;
-
-    padding: 0px 24px;
-
-    gap: 32px;
-    height: 60px;
-    align-self: stretch;
+    padding: 0 20px;
+    gap: 40px;
+    height: 100px;
+    max-width: 389px;
+    margin: 0 auto;
     /* background-color: #00000050; */
 } 
 
 .navItem {
     color: #403930;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 30px */
 }
 
-.headerImageContainer {
-  display: none;
+/*------header --------*/
+header {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    max-width: 389px;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.badge {
+    padding: 12px 24px;
+    border-radius: 10px;
+    background: #e6eeff;
+    width: fit-content;
+  
+    /* 텍스트 속성 */
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+  
+    margin-bottom: 40px;
+  }
+
+  header h1 em{
+    font-style: normal;
+    background: linear-gradient(
+        99deg, 
+        #001F8F 3.58%,
+         rgba(36, 255, 203, 0.50) 90.34%
+         );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headerLinkContainer {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+.headerLink {
+    display: flex;
+    padding: 24px 10px;
+    gap: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    border-radius: 16px;
+    text-decoration: none;
+    border: solid 4px black;
+}
+  
+  .black {
+    background-color: black;
+    color: #e6eeff;
+  }
+
+  .outline {
+    color: #403930;
+  }
+  
+  .profileImage {
+    display: none;
+  }
+
+  /*--- About me---- */
+  .aboutMeContainer {
+    background: linear-gradient(
+      96deg,
+      rgba(189, 210, 255, 0.4) 1.72%,
+      rgba(116, 224, 215, 0.4) 158.93%
+    );
+  }
+  .aboutMe {
+    max-width: 389px;
+    margin: 0 auto;
+    padding: 120px 20px;
+  }
+  .aboutMe h2 {
+    color: #000;
+    font-size: 20px;
+    /* white-space: pre-line; */
+    font-style: normal;
+    font-weight: 350;
+    line-height: 125%; /* 50px */
+    letter-spacing: -0.8px;
+  }
+  
+  .aboutMe p {
+    color: #333;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 150%; /* 30px */
+    white-space: pre-line;
+  }
+  
+  .flyingPerson {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    /* top: 0px; */
+    bottom: 48px;
+    /* right: 0px; */
+    left: 60px;
+  }
+  
+  .posRelative {
+    position: relative;
+  }
+
+  .fixedContactButton {
+    display: none;
+  }
+
+
+  /* 기술 스택 */
+  /* top, bottom: 100px, right, left: 20px*/
+  .techStackContainer {
+    padding: 100px 20px;
+  }
+
+    /* 기술 스택 스타일 */
+    .techStackContainer h3 {
+      color: #000;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 26px; /* 65% */
+      letter-spacing: -0.8px;
+      padding-bottom: 24px;
+    }
+
+  /* 아래 컴포넌트와의 margin을 80px*/
+  .techStackContainer p {
+    margin-bottom: 80px;
+  }
+
+
+  /* 기술 설명 스타일 */
+  .techStackContainer p {
+    color: #333;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px; /* 130% */
+  }
+
+  .techLogos {
+    list-style-type: none;
+    max-width: 389px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+  }
+
+  /* ---- 내 프로젝트 컨테이너 ---- */
+  .myProjectContainer {
+    background: rgba(244, 244, 244, 0.50);
+  }
+
+  /* ---- 내 프로젝트 컨테이너: layout ---- */
+  .myProject {
+    max-width: 389px;
+    margin: 0 auto;
+    padding: 120px 20px;
+  }
+
+   /* 기술 스택 스타일 */
+   .myProjectContainer h3 {
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 26px; /* 65% */
+    letter-spacing: -0.8px;
+    padding-bottom: 16px;
+
+    padding: 8px;
+    margin-bottom: 32px;
+  }
+
+  .project1 {
+    border-radius: 24px;
+    background: #E6EEFF;
+
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    margin-bottom: 32px;
+  }
+
+  .project2 {
+    border-radius: 24px;
+    background: #E6EEFF;
+
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    margin-bottom: 32px;
+  }
+
+  .project3 {
+    border-radius: 24px;
+    background: #E6EEFF;
+
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    margin-bottom: 32px;
+  }
+
+  .p_description {
+    display: flex;
+    width: 210px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .p_description_title {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+  }
+
+  .p_description_text {
+    text-align: left;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 150%; /* 24px */
+  }
+
+  .p_description_link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .p_image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 24px;
+  }
+
+  .p_image1 {
+    width: 176px;
+    height: 348px;
+    border-radius: 16.08px;
+    background: url("./img/p_1.png");
+  }
+
+  .p_image2 {
+    width: 176px;
+    height: 348px;
+    border-radius: 16.08px;
+    background: url("./img/p_2.png");
+  }
+
+  .p_image3 {
+    width: 176px;
+    height: 348px;
+    border-radius: 16.08px;
+    background: url("./img/p_3.png"); 
+  }
+
+
+
+/* ---- 동료 피드백 컨테이너 ---- */
+.feedback {
+  max-width: 389px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+
+    /* 기술 스택 스타일 */
+    .feedback h3 {
+      color: #000;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 26px; /* 65% */
+      letter-spacing: -0.8px;
+      padding-bottom: 24px;
+
+      margin-bottom: 60px;
+    }
+
+.feedback_text {
+  display: flex;
+  width: 389px;
+  align-items: center;
+  gap: 94px;
+}
+
+.feedback1 {
+  display: flex;
+  width: 300px;
+  height: 264px;
+  padding: 0px 39px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 10px;
+  background: #FAFAFA;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.feedback2 {
+  display: flex;
+width: 250px;
+height: 264px;
+padding: 0px 39px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+border-radius: 10px;
+background: #FAFAFA;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15); 
+}
+
+.feedback3 {
+  display: flex;
+  width: 200px;
+height: 264px;
+padding: 0px 39px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+border-radius: 10px;
+background: #FAFAFA;
+box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+/* 포부 컨테이너 */
+.aspirationContainer {
+  background: #E6EEFF;
+}
+.aspiration {
+  max-width: 389px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  display: flex;
+  height: 406px;
+  padding: 64px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.aspiration_text {
+  color: #403930;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 125%; /* 60px */
+  letter-spacing: -0.96px;
+
+}
+
+/* footer 컨테이너 */
+.snsContainer {
+  max-width: 389px;
+  margin: 0 auto;
+  padding: 120px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 35px;
+}
+
+
+.s_image {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.s_image1 {
+  width: 30px;
+  height: 30px;
+  background: url("./img/fb.png") ;
+}
+
+.s_image2 {
+  width: 30px;
+  height: 30px;
+  background: url("./img/insta.png");
+}
+
+.s_image3 {
+  width: 30px;
+  height: 30px;
+  background: url("./img/Linkedin.png"); 
+}
+
+.copyRight {
+  color: var(--Dark, #21243D);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
