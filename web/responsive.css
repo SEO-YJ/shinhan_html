@@ -2,6 +2,7 @@
     display: none;
   }
 
+
   nav {
     /* 디자이너들은 주로 rgb, hex 값을 사용 */
     
@@ -20,6 +21,8 @@
 
 .navItem {
     color: #403930;
-    font-size: ;
-    
+}
+
+.headerImageContainer {
+  display: none;
 }
