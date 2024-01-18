@@ -271,7 +271,7 @@ header {
 
   .p_description_title {
     color: #000;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; /* 36px */
@@ -279,7 +279,7 @@ header {
 
   .p_description_text {
     text-align: left;
-    font-size: 8px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 250;
     line-height: 150%; /* 24px */
@@ -290,6 +290,10 @@ header {
     flex-direction: row;
     align-items: flex-start;
     gap: 12px;
+  }
+
+  .p_description_link a {
+    font-size: 16px;
   }
 
   .p_image {
